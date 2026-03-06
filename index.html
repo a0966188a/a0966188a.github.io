@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>關於我 | 數據分析與開發專家</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; font-size: 2.5em; }
+        .subtitle { font-size: 1.1em; opacity: 0.9; }
+        
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: #4a69bd;
+            border-left: 5px solid #4a69bd;
+            padding-left: 15px;
+            margin-top: 0;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, min-minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .skill-card {
+            background: #f1f3f5;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            background: #e9ecef;
+        }
+
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #ccc;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background: #4a69bd;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .contact-btn:hover { background: #1e3799; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>你好，我是數據的轉譯者</h1>
+        <p class="subtitle">專注於 SQL Server、Power BI 與 Python 的整合應用</p>
+    </header>
+
+    <section id="about">
+        <h2>關於我</h2>
+        <p>
+            我深信數據不應該只是冰冷的數字，而是引導決策的指南針。身為一名技術開發者，我追求的是<strong>洞察力與實戰價值的平衡</strong>。我不只是串接資料庫，更是透過邏輯與自動化，為企業挖掘隱藏在資訊背後的真實故事。
+        </p>
+        <blockquote>
+            「卓越的數據分析，是讓技術退居幕後，讓洞察躍然紙上。」
+        </blockquote>
+    </section>
+
+    <section id="skills">
+        <h2>核心技術棧</h2>
+        <div class="skills-grid">
+            <div class="skill-card">SQL Server<br>資料庫分析</div>
+            <div class="skill-card">Power BI<br>視覺化報表</div>
+            <div class="skill-card">DAX<br>複雜查詢邏輯</div>
+            <div class="skill-card">Python<br>自動化開發</div>
+        </div>
+        <ul style="margin-top: 20px;">
+            <li><strong>精準建模：</strong> 擅長使用 SQL Server 進行高效的資料清洗與分析架構設計。</li>
+            <li><strong>深度分析：</strong> 透過 Power BI 與 DAX 解決複雜的業務運算，將資訊直覺化。</li>
+            <li><strong>靈活擴展：</strong> 利用 Python 進行數據處理與工具開發，提升整體流程效率。</li>
+        </ul>
+    </section>
+
+    <section id="opportunity">
+        <h2>求職目標與願景</h2>
+        <p>
+            我正在尋找能發揮數據價值的挑戰。我期待加入一個重視技術成長、且願意以數據驅動創新的團隊。如果您正在尋找一位既能處理後端龐大資料架構，又能產出高品質商業分析報表的夥伴，歡迎與我聯繫。
+        </p>
+        <a href="mailto:your-email@example.com" class="contact-btn">與我聊聊</a>
+    </section>
+
+    <footer style="text-align: center; font-size: 0.8em; color: #888; padding: 20px;">
+        <p>&copy; 2026 個人簡介 - 保持真實，保持數據敏銳度。</p>
+    </footer>
+
+</body>
